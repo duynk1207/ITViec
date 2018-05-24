@@ -11,10 +11,12 @@
 <link rel="stylesheet" href="css/forAll.css" />
 <link rel="stylesheet" href="css/header.css" />
 <link rel="stylesheet" href="css/footer.css" />
+<link rel="stylesheet" href="chosen/chosen.css">
 <script src="js/jquery-3.3.1.slim.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/ionicons.js"></script>
+
+<script src="https://unpkg.com/ionicons@4.1.1/dist/ionicons.js"></script>
 </head>
 <body>
 	<div class="home_header">
@@ -36,46 +38,31 @@
 			<div class="container">
 				<div class="row">
 					<!-- search by input -->
-					<div
-						class="col-xl-7 col-lg-7 pl-lg-0 pl-xl-0 p-0 mb-xl-0 mb-lg-0 mb-4"
+					<ion-icon name="search" class="in ios-search"></ion-icon>
+					<select
+						data-placeholder="Keyword skill (Java, iOS...), Job Title, Company..."
+						multiple class="chosen-select" tabindex="8"
 						style="border: 1px solid #bebebe;">
-						<div class="input-group"
-							style="height: 58px; background-color: white;">
-							<div class="container-fluid">
-								<div class="row">
-									<div class="col-1">
-										<div class="input-group-prepend pt-3">
-											<ion-icon name="search"
-												style="font-size: 25px;color: #8B8B8B;"></ion-icon>
-										</div>
-									</div>
-									<div class="col-10">
-										<input class="pl-0 pt-3" type="text"
-											style="border-style: none; border: 0px; width: 100%; font-size: 18px; font-family: 'Roboto', sans-serif; color: #6D6D6D;"
-											placeholder="Tìm kiếm theo kỹ năng, chức vụ, công ty">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+						<option value=""></option>
+						<option>Jquery</option>
+						<option>Java</option>
+						<option>Javascript</option>
+						<option>HTML</option>
+						<option>CSS</option>
+						<option>HTML5</option>
+						<option>CSS3</option>
+						<option>Python</option>
+					</select>
 					<!-- end search by input -->
 					<!-- search by city -->
-					<div class="col-xl-2 col-lg-2 p-0 ml-xl-3 ml-lg-3 mr-xl-3 mr-lg-3"
+					<ion-icon name="pin" class="pin-icon"></ion-icon>
+					<select class="chosen-select" tabindex="8"
 						style="border: 1px solid #bebebe;">
-						<div class="input-group"
-							style="height: 58px; background-color: white;">
-							<div class="container-fluid">
-								<div class="row">
-									<div class="col-1">
-										<div class="input-group-prepend pt-3">
-											<ion-icon name="pin" style="font-size: 25px;color: #8B8B8B;"></ion-icon>
-										</div>
-									</div>
-									<div class="col-10"></div>
-								</div>
-							</div>
-						</div>
-					</div>
+						<option>Ha Noi</option>
+						<option>Ho Chi Minh</option>
+						<option>Da Nang</option>
+						<option selected>RIKKEISOFT</option>
+					</select>
 					<!-- end search by city -->
 					<!-- button search -->
 					<div class="col-xl-2 col-lg-2 p-0 mt-xl-0 mt-lg-0 mt-4"
@@ -381,5 +368,19 @@
 	<jsp:include page="/WEB-INF/pages/footer.jsp"></jsp:include>
 	<!-- end footer -->
 
+
+	<!-- for search -->
+	<script src="chosen/chosen.jquery.js"></script>
+	<script type="text/javascript">
+		$(".chosen-select").chosen({
+		  disable_search_threshold: 10
+		});
+		$(".chosen-container-multi")
+				.addClass(
+						'col-xl-7 col-lg-7 pl-lg-0 pl-xl-0 p-0 mb-xl-0 mb-lg-0 mb-4 col-12 ');
+		$(".chosen-container-single")
+				.addClass(
+						'col-xl-3 col-lg-3 p-0 pl-xl-3 pl-lg-3 pr-xl-3 pr-lg-3 col-12 ');
+	</script>
 </body>
 </html>

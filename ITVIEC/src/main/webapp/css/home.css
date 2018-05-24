@@ -29,3 +29,52 @@
     .home_body{
     	background-color:#e9e9e9;
     }
+    
+    /* for search */
+    .chosen-choices {
+      height: 60px !important;
+      font-size: 15px !important;
+      padding: 15px !important;
+      padding-left: 50px !important;
+    }
+
+    .chosen-single {
+      height: 60px !important;
+      font-size: 12px !important;
+      padding-top: 20px !important;
+      padding-bottom: 20px !important;
+      padding-left: 50px !important;
+      border: none !important;
+      background: white !important;
+    }
+
+    .chosen-single>div>b {
+      margin-top: 40px !important;
+      margin-left: 5px !important;
+      display: none !important;
+    }
+
+    .chosen-single>div {
+      border-right: solid 10px #908F90 !important;
+      top: 43px !important;
+      right: 4px !important;
+      border-right: solid 10px #908F90 !important;
+      border-top: solid 10px transparent !important;
+      height: 0 !important;
+    }
+
+    .ios-search>.icon-inner {
+      position: absolute !important;
+      font-size: 28px !important;
+      margin-left: 15px !important;
+      margin-top: 15px !important;
+      z-index: 100 !important;
+    }
+
+    .pin-icon>.icon-inner {
+      position: absolute !important;
+      font-size: 28px !important;
+      margin-left: 25px !important;
+      margin-top: 15px !important;
+      z-index: 100 !important;
+    }
