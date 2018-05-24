@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+.readmore::after{
+      display: inline-block;
+      content: "";
+      position: relative;
+      border-left: solid 4px #ea2635;
+      border-top: solid 4px transparent;
+      border-bottom: solid 4px transparent;
+    }
+    .seemore::after{
+      display: inline-block;
+      content: "";
+      position: relative;
+      border-left: solid 5px gray;
+      border-top: solid 5px transparent;
+      border-bottom: solid 5px transparent;
+    }
+    .div_hover1{
+      background-color:#fff1e1;
+      border-top: 2px solid #e7e7e7;
+      border-bottom: 2px solid #e7e7e7;
+      border-left: 2px solid #fff1e1;
+      border-right: 2px solid #fff1e1;
+    }
+    .div_hover2{
+      background-color:#f9f9f9;
+      border-top: 2px solid #e7e7e7;
+      border-bottom: 2px solid #e7e7e7;
+      border-left: 2px solid #f9f9f9;
+      border-right: 2px solid #f9f9f9;
+    }
+    .div_hover:hover{
+      border: 2px solid #e7e7e7;
+      background-color: white !important;
+      box-shadow: 1px 1px 2px 2px #e7e7e7;
+    }

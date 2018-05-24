@@ -2,21 +2,20 @@
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<meta name="viewport"
-	content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>Home</title>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/toggle-switch.css" />
-<link rel="stylesheet" href="css/home.css" />
-<link rel="stylesheet" href="css/forAll.css" />
-<link rel="stylesheet" href="css/header.css" />
-<link rel="stylesheet" href="css/footer.css" />
-<link rel="stylesheet" href="chosen/chosen.css">
-<script src="js/jquery-3.3.1.slim.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-
-<script src="https://unpkg.com/ionicons@4.1.1/dist/ionicons.js"></script>
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Home</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/toggle-switch.css" />
+	<link rel="stylesheet" href="css/home.css" />
+	<link rel="stylesheet" href="css/forAll.css" />
+	<link rel="stylesheet" href="css/header.css" />
+	<link rel="stylesheet" href="css/footer.css" />
+	<link rel="stylesheet" href="chosen/chosen.css">
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="https://unpkg.com/ionicons@4.1.1/dist/ionicons.js"></script>
 </head>
 <body>
 	<div class="home_header">
