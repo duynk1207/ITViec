@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+.h3_fontsize{
+	font-size: 18px;
+	font-weight: 500 !important;
+}
+
+.li_hover:hover {
+      color: red !important;
+    }
+
+.ul_footer{
+	color: #808184; 
+	font-weight: 400;
+}
+
+.ul_footer > li{
+	list-style-type: none;
+}
+
+.a_footer_color{
+	color: #57595B !important;
+}
+.footer_contact{
+	color: #808184 !important; 
+	font-weight: 400; 
+	font-size: 17px;	
+}
+.a_footer > a{
+	color: #929497 !important; 
+	font-size: 16px; 
+	line-height: 33px; 
+	color: #929497;
+}

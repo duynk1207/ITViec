@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+    .text_title {
+      color: white;
+      font-size: 34px;
+    }
+
+    select {
+      /*for firefox*/
+      -moz-appearance: none;
+      /*for chrome*/
+      -webkit-appearance: none;
+      appearance: none;
+    }
+
+    .a_hover:hover {
+      background-color: white;
+      cursor: pointer;
+      color: black !important;
+    }
+
+    .company:hover {
+      cursor: pointer;
+      border: 2px solid #D8D8D8;
+    }
+    
+    .home_header{
+    	background-color:#221f20;
+    }
+    .home_body{
+    	background-color:#e9e9e9;
+    }
