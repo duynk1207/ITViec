@@ -16,7 +16,7 @@ public class loginAction extends ActionSupport {
 	 */
 	private static final long serialVersionUID = 1L;
 	private String userName;
-	private String password;
+	private String password; 
 	private String loginMessage;
 	private User user;
 	private Map<String, Object> session = ActionContext.getContext().getSession();
