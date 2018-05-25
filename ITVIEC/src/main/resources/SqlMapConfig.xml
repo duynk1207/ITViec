@@ -8,11 +8,11 @@
          <property name="JDBC.Driver" value="com.mysql.jdbc.Driver"/>
          <property name="JDBC.ConnectionURL" value="jdbc:mysql://localhost:3306/itviec"/>
          <property name="JDBC.Username" value="root"/>
-         <property name="JDBC.Password" value="123456"/>			
+         <property name="JDBC.Password" value="123123"/>			
       </dataSource>
    </transactionManager>
 
    <sqlMap resource="pm01.xml"/>
    <sqlMap resource="user.xml"/>
-   <sqlMap resource="company.xml"/>
+   <sqlMap resource="pm02.xml"/>
 </sqlMapConfig>
