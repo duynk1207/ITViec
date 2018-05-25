@@ -24,6 +24,7 @@ function login() {
     			$("#login2").attr("class", "navbar-brand d-block cursor" );
     			$("#login1").html(fullname);
     			$("#login2").html(fullname);
+    			
         },
         error:function(jqXhr, textStatus, errorThrown) {
             alert('Save not success');
