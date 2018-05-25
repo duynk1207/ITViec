@@ -14,6 +14,6 @@
 		    user_account_type as accountType,
 		    user_coverletter as coverLetter
 		FROM users_tbl 
-		WHERE userName = #userName# and password = #password# 
+		WHERE user_username = #userName# and user_password = #password# 
 	</select>
 </sqlMap>

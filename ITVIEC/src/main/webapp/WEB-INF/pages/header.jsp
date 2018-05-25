@@ -1,5 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	<script src="js/login.js"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery-1.12.4.js"></script>
+	<script src="js/jquery-ui.js"></script>
 	<!-- header -->
 	<div class="container-fluid fixed-top header">
 		<div class="container">
@@ -31,7 +35,7 @@
 						<div
 							class="col-5 col-sm-5 col-md-5 col-lg-10 col-xl-11 p-0 text-right">
 							<div class="d-lg-none pt-2 w-90 cursor">
-								<a class="navbar-brand" id="login" data-toggle="modal"
+								<a class="navbar-brand login" id="login1" data-toggle="modal"
 									data-target="#myModal">Đăng Nhập</a>
 							</div>
 							<nav class="navbar navbar-expand-lg d-inline-block p-0">
@@ -49,7 +53,7 @@
 									<li class="pt-2"><a class="nav-link pl-lg-0 pl-xl-2"
 										href="#" id="text-header">Blog</a></li>
 									<li class="pt-2 pl-lg-0 pl-xl-2"><a
-										class="navbar-brand pt-2 pb-2 cursor" id="login"
+										class="navbar-brand pt-2 pb-2 cursor login" id="login2"
 										data-toggle="modal" data-target="#myModal">Đăng Nhập</a></li>
 									<li class="pt-3 pr-0 pl-lg-0 pl-xl-2"><label
 										class="switch-light" style="width: 80px;"> <input
@@ -154,7 +158,7 @@
 									</div>
 									<div class="form-group mr-3 ml-3">
 										<input type="text" class="form-control" id="usr"
-											placeholder="Địa chỉ Email">
+											placeholder="Tên đăng nhập">
 									</div>
 									<div class="form-group mr-3 ml-3">
 										<input type="password" class="form-control" id="pwd"
@@ -166,8 +170,9 @@
 									</div>
 									<input
 										class="mt-2 mr-3 ml-3 pt-3 pb-3 pl-5 pr-5 cursor login_hover"
-										type="submit" name="" value="Đăng nhập"
+										type="submit" name="" value="Đăng nhập" onclick="login()"
 										style="color: white; background-color: #EA1E30; font-size: 20px; font-weight: 500 !important; border: none" />
+									<a style="color:red;font-weight: 400; font-size: 17px;" id="loginMessage"></a>
 								</div>
 								<div class="tab-pane fade" id="pills-signin" role="tabpanel"
 									aria-labelledby="pills-signin-tab">...</div>

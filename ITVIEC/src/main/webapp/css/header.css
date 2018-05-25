@@ -16,15 +16,15 @@ nav ul li a:hover {
       box-sizing: content-box;
     }
 
-    #login {
+    .login {
       background-color: #2b2b2c !important;
       border-radius: 10px;
-      color: #bbbdbf;
+      color: #bbbdbf !important;
       font-size: 16px;
       padding: 5px 5px 5px 5px;
     }
 
-    #login:hover {
+    .login:hover {
       color: white;
       background-color: black !important;
     }
