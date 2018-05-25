@@ -12,6 +12,7 @@
       </dataSource>
    </transactionManager>
 
+   <sqlMap resource="pm01.xml"/>
    <sqlMap resource="user.xml"/>
    <sqlMap resource="company.xml"/>
 </sqlMapConfig>
