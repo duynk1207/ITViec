@@ -12,5 +12,5 @@
       </dataSource>
    </transactionManager>
 
-   <sqlMap resource="Game.xml"/>
+   <sqlMap resource="pm01.xml"/>
 </sqlMapConfig>
