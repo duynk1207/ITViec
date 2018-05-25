@@ -21,7 +21,7 @@ public class loginAction extends ActionSupport {
 	private User user;
 	private Map<String, Object> session = ActionContext.getContext().getSession();
 	
-	public String login() throws Exception {
+	public String login() throws Exception { 
 		UserModel um = new UserModel();
 		if(userName==null || userName.trim().equals("") || password==null || password.equals("")) {
 			loginMessage = "userName or password not blank";
@@ -35,6 +35,15 @@ public class loginAction extends ActionSupport {
 				loginMessage = "userName or password invalid";
 				return ERROR;
 			}
+		}
+	}
+	
+	public String checkLoginSession() throws Exception {
+		user = (User) session.get("user");
+		if(user == null || user.getUserName() == null) {
+			return ERROR;
+		}else {
+			return SUCCESS;
 		}
 	}
 
