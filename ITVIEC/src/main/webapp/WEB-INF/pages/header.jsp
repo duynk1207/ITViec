@@ -4,7 +4,7 @@
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/jquery-1.12.4.js"></script>
 	<script src="js/jquery-ui.js"></script>
-	<!-- header -->
+	<!-- header --> 
 	<div class="container-fluid fixed-top header">
 		<div class="container">
 			<div class="row">
@@ -172,10 +172,10 @@
 										class="mt-2 mr-3 ml-3 pt-3 pb-3 pl-5 pr-5 cursor login_hover"
 										type="submit" name="" value="Đăng nhập" onclick="login()"
 										style="color: white; background-color: #EA1E30; font-size: 20px; font-weight: 500 !important; border: none" />
-									<a style="color:red;font-weight: 400; font-size: 17px;" id="loginMessage"></a>
+									<br/><a style="color:red;font-weight: 400; font-size: 17px;" id="loginMessage"></a>
 								</div>
 								<div class="tab-pane fade" id="pills-signin" role="tabpanel"
-									aria-labelledby="pills-signin-tab">...</div>
+									aria-labelledby="pills-signin-tab">...</div> 
 									
 							</div>
 						</div>
