@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="company">
+	<select id="getAll" resultClass="entity.Company">
+		SELECT company_id as companyID,
+		    company_name as companyName,
+		    company_sort_description as sortDescription,
+		    company_location as location,
+		    company_map_location as mapLocation,
+		    company_nation_id as nationID,
+		    company_stats as stats,
+		    company_product as product,
+		    company_description as description,
+		    company_total_employees as totalEmployees,
+		    company_work_schedule as workSchedule,
+		    company_overtime_schedule as overtimeSchedule,
+		    company_facebook_address as facebookAddress,
+		    company_website_address as websiteAddress,
+		    company_total_views as totalViews,
+		    company_logo_address as logoAddress,
+		    company_status as status,
+		    user_id as userID
+		FROM companies_tbl;
+	</select>
+</sqlMap>
