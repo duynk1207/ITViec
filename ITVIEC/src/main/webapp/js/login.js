@@ -17,6 +17,11 @@ function login() {
     			$(".modal-backdrop").remove();
     			var fullname = response.user.fullname;
     			alert(fullname);
+    			$("#lg1").attr("class", "navbar-brand login d-none" );
+    			$("#lg2").attr("class", "navbar-brand pt-2 pb-2 cursor login d-none" );
+    			
+    			$("#login1").attr("class", "navbar-brand d-block cursor" );
+    			$("#login2").attr("class", "navbar-brand d-block cursor" );
     			$("#login1").html(fullname);
     			$("#login2").html(fullname);
         },

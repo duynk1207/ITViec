@@ -35,8 +35,8 @@
 						<div
 							class="col-5 col-sm-5 col-md-5 col-lg-10 col-xl-11 p-0 text-right">
 							<div class="d-lg-none pt-2 w-90 cursor">
-								<a class="navbar-brand login" id="login1" data-toggle="modal"
-									data-target="#myModal">Đăng Nhập</a>
+								<a class="navbar-brand login" data-toggle="modal" id="lg1"
+									data-target="#myModal">Đăng Nhập</a><a class="d-none" id="login1"></a>
 							</div>
 							<nav class="navbar navbar-expand-lg d-inline-block p-0">
 							<div class="collapse navbar-collapse">
@@ -53,8 +53,8 @@
 									<li class="pt-2"><a class="nav-link pl-lg-0 pl-xl-2"
 										href="#" id="text-header">Blog</a></li>
 									<li class="pt-2 pl-lg-0 pl-xl-2"><a
-										class="navbar-brand pt-2 pb-2 cursor login" id="login2"
-										data-toggle="modal" data-target="#myModal">Đăng Nhập</a></li>
+										class="navbar-brand pt-2 pb-2 cursor login"
+										data-toggle="modal" id="lg2" data-target="#myModal">Đăng Nhập</a><a class="d-none" id="login2"></a></li>
 									<li class="pt-3 pr-0 pl-lg-0 pl-xl-2"><label
 										class="switch-light" style="width: 80px;"> <input
 											type="checkbox"> <span
